@@ -1,0 +1,45 @@
+* {/*reset padrão*/
+    box-sizing: border-box;/*dimensionamento de caixa: caixa de borda*/
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;/*tipo da fonte*/
+}
+
+body{
+    background-color: rgb(61, 65, 65);
+}
+
+.container{/*regra do container do cabeçalho*/
+    max-width: 400px;/*"largura máxima" vai ser de 1024px*/
+    width: 100%;/*largura 100%*/
+    margin: 10% 10% 10% 40%;/*margin cima/baixo (0), e (auto) p/ centralizar na horizontal*/
+    background-color: rgb(205, 204, 216);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+h2{
+    padding: 15px 15px;
+    font-size: 50px;
+    text-align: center;/*para alinhar todo o conteúdo no centro*/
+    font-weight: 700;
+    
+}
+
+label{
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+button{
+    margin-top: 5%;
+}
+
+/*CELULAR*/
+@media screen and (max-width: 640px){
+    .container{/*regra do container do cabeçalho*/
+        margin: 10% 10% 10% 10%;/*margin cima/baixo (0), e (auto) p/ centralizar na horizontal*/
+    
+}
+
+}
